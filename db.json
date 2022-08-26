@@ -1,0 +1,138 @@
+{
+  "posts": [
+    {
+      "name": "pradip",
+      "email": "pradip",
+      "mobileno": 12141241,
+      "password": 23444,
+      "id": 1
+    },
+    {
+      "id": 3,
+      "name": "heklo",
+      "email": "helllo123",
+      "mobileno": 898989898
+    },
+    {
+      "name": "",
+      "email": "",
+      "mobileno": "",
+      "password": "",
+      "id": 5
+    },
+    {
+      "name": "shree upase",
+      "email": "shree@gmail.com",
+      "mobileno": 986578778,
+      "password": 5678587,
+      "id": 6
+    },
+    {
+      "name": "shree",
+      "email": "shree@gmail.com",
+      "mobileno": 98667676,
+      "password": 89666,
+      "id": 7
+    },
+    {
+      "name": "",
+      "email": "",
+      "mobileno": "",
+      "password": "",
+      "id": 8
+    },
+    {
+      "name": "",
+      "email": "",
+      "mobileno": "",
+      "password": "",
+      "id": 9
+    },
+    {
+      "name": "",
+      "email": "",
+      "mobileno": "",
+      "password": "",
+      "id": 10
+    },
+    {
+      "name": "pradip",
+      "email": "pr@gmail.com",
+      "mobileno": 88778899,
+      "password": 99877,
+      "id": 11
+    },
+    {
+      "name": "pradip",
+      "email": "pr@gmail.com",
+      "mobileno": 88778899,
+      "password": 99877,
+      "id": 12
+    },
+    {
+      "name": "",
+      "email": "",
+      "mobileno": "",
+      "password": "",
+      "id": 13
+    },
+    {
+      "name": "d",
+      "email": "wewe",
+      "mobileno": null,
+      "password": null,
+      "id": 14
+    },
+    {
+      "name": "",
+      "email": "",
+      "mobileno": 87888,
+      "password": "",
+      "id": 15
+    },
+    {
+      "name": "",
+      "email": "",
+      "mobileno": "",
+      "password": "",
+      "id": 16
+    },
+    {
+      "name": "",
+      "email": "",
+      "mobileno": "",
+      "password": "",
+      "id": 17
+    },
+    {
+      "name": "",
+      "email": "",
+      "mobileno": "",
+      "password": "",
+      "id": 18
+    },
+    {
+      "name": "",
+      "email": "",
+      "mobileno": "",
+      "password": "",
+      "id": 19
+    },
+    {
+      "name": "pratik mali",
+      "email": "pratik@gmail.com",
+      "mobileno": 8765575466,
+      "password": "Pradip1122@#",
+      "cpassword": "1222",
+      "id": 20
+    },
+    {
+      "name": "Pradip Kamlakar Chafekanade ",
+      "email": "admin@gmail.com",
+      "mobileno": 9322253624,
+      "password": "Pradip11",
+      "cpassword": "Pradip11@",
+      "id": 21
+    }
+  ]
+}

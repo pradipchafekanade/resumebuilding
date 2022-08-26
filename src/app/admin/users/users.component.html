@@ -1,0 +1,33 @@
+<div class="container py-3">
+    <header>
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+            <h2 class="fw-normal">Users</h2>
+        </div>
+    </header>
+    <main>
+        <div class="row mb-3">
+            <div class="table-scrollable">
+                <table class="table table-bordered table-stripped">
+                    <thead>
+                      <tr>
+                        <th>No</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Mobile No</th>
+                        <th>Password</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr *ngFor="let user of users;let i = index;">
+                        <td style="text-align:right;">{{ (i + 1) }}</td>
+                        <td>{{ user.name }}</td>
+                        <td>{{ user.email }}</td>
+                        <td>{{ user.mobileno }}</td>
+                        <td>{{ user.password }}</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+    </main>
+</div>

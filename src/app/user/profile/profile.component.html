@@ -1,0 +1,40 @@
+<div class="container">
+  <div class="text-center">
+    <img src="https://www.igapeducation.com/assets/img/igapeducation.png" _
+        style="width: 125px;" alt="logo">
+    <h4 >Welcome to the iGAP</h4>
+</div>  
+    <form [formGroup]="formdata" >
+
+      <div class="row">
+        <div class="col-lg-3">
+
+        </div>
+        <div id="profile" class="col-lg-6 border  border-primary border-3 p-5 mb-5">
+          <h2 >Profile</h2>
+          <hr>
+          <div class="form-group">
+            <input type="hidden" formControlName="id">
+            <label>Name:</label>
+            <input type="text" class="form-control" id="name" formControlName="name">
+          </div>
+          <div class="form-group">
+            <label>Email:</label>
+            <input type="email" class="form-control" id="email" formControlName="email">
+          </div>
+          <div class="form-group">
+            <label>Contact No 1:</label>
+            <input type="text" class="form-control" id="contactno1" formControlName="mobileno">
+          </div>
+          <br />
+          <a> <button type="submit" (click)="submitdata(formdata.value)" class="btn btn-primary">Update</button></a>
+        <span >&nbsp; &nbsp;</span>  <a routerLink="/information"> <button type="submit"  class="btn btn-primary" >Create Resume</button></a>
+        </div>
+      </div>
+        
+       
+       
+
+      </form>
+</div>
+

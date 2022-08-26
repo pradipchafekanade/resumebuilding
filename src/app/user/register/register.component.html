@@ -1,0 +1,105 @@
+<section class="h-100 gradient-form" style="background-color: hsl(0, 18%, 90%);">
+    <div class="container py-2 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-xl-6">
+                <div class="card rounded-3 text-black">
+                    <div class="row g-0">
+                        <div class="col-lg-12">
+                            <div class="card-body p-md-5 mx-md-4">
+
+                                <div class="text-center">
+                                    <img src="https://www.igapeducation.com/assets/img/igapeducation.png" _
+                                        style="width: 185px;" alt="logo">
+                                    <h4 class="mt-1">We are The Team iGAP</h4>
+                                </div>
+                                
+                                <form [formGroup]="formdata">
+                                    <div class="text-center "><i class="fa fa-sign-in-alt fa-3x"></i></div>
+                                    <div class="form-row">
+                                        <span
+                                            *ngIf="formdata.controls.name.invalid && formdata.controls.name.touched"> *Please
+                                            enter valid name.</span>
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text" id="username-addon">👤</span>
+                                            </div>
+                                            
+                                            <input type="text" class="form-control" placeholder="Name"
+                                                aria-label="username" aria-describedby="username-addon"
+                                                formControlName="name" [ngClass]="{'red':formdata.controls.name.invalid && formdata.controls.name.touched}"
+                                                name="name">
+                                        </div>
+                                    </div>
+
+                                    <span
+                                    *ngIf="formdata.controls.email.invalid && formdata.controls.email.touched">Please
+                                    enter valid email.</span>
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="emailId-addon">✉</span>
+                                        </div>
+                                        <input type="email" class="form-control" placeholder="Email" aria-label="email"
+                                            aria-describedby="emailId-addon" formControlName="email"
+                                            [ngClass]="{'red':formdata.controls.email.invalid && formdata.controls.email.touched}"
+                                            name="email" >
+                                       
+                                    </div>
+                                    <span
+                                        *ngIf="formdata.controls.mobileno.invalid && formdata.controls.mobileno.touched">Please
+                                        enter valid mobileno.</span>
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="">📞</span>
+                                        </div>
+                                        
+                                        <input type="number" class="form-control" placeholder="Mobile No"
+                                            aria-label="email" aria-describedby="emailId-addon"
+                                            formControlName="mobileno" [ngClass]="{'red':formdata.controls.mobileno.invalid && formdata.controls.mobileno.touched}"
+                                            name="mobileno">        
+                                    </div>
+
+                                    <span
+                                    *ngIf="formdata.controls.password.invalid && formdata.controls.password.touched">*Please
+                                    enter valid password.</span>
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="">🔑</span>
+                                        </div>
+                                        <input type="password" class="form-control" placeholder="Password"
+                                            aria-label="email" aria-describedby="emailId-addon"
+                                            formControlName="password">
+                                    </div>
+
+
+                                    <span
+                                    *ngIf="formdata.controls.cpassword.invalid && formdata.controls.cpassword.touched">Please
+                                    enter valid password.</span>
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="">🔑</span>
+                                        </div>
+                                        <input type="password" class="form-control" placeholder="Confirm Password"
+                                            aria-label="" aria-describedby="emailId-addon"  formControlName="cpassword">
+                                    </div>
+                                    <div class="form-outline mb-4">
+                                        <a routerLink="/user">
+                                        <button class="btn btn-success d-block mx-auto" type="button"
+                                            (click)="submit(formdata.value)" [disabled] ="!formdata.valid">Register</button>
+                                        </a>
+                                        </div>
+                                    
+                                    <div class="d-flex align-items-center justify-content-center pb-4">
+                                        <span class="text text-primary">If you already have an account?</span> <a routerLink="/" class="text text-primary"><b>Login</b></a>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>

@@ -1,0 +1,37 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-warning" *ngIf="usertype != ''">
+  <a class="navbar-brand" href="#">igap education pvt.ltd </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          User
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" routerLink="user">Profile</a></li>
+          <li><a class="dropdown-item" routerLink="user/resumes">Resumes</a></li>
+          <li><a class="dropdown-item" routerLink="user/changepassword">Change Password</a></li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Administrator
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" routerLink="admin/users">Users</a></li>
+          <li><a class="dropdown-item" routerLink="admin/objectives">Objectives</a></li>
+          <li><a class="dropdown-item" routerLink="admin/skills">Skills</a></li>
+          <li><a class="dropdown-item" routerLink="admin/individualskills">Individual Skills</a></li>
+          <li><a class="dropdown-item" routerLink="admin/hobbies">Hobbies</a></li>
+          <li><a class="dropdown-item" routerLink="admin/qualifications">Qualifications</a></li>
+
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" style="cursor: pointer;" (click)="logout()">Logout</a>
+      </li>
+    </ul>    
+  </div>
+</nav>

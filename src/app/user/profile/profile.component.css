@@ -1,0 +1,13 @@
+h2{
+    text-align: center;
+
+}
+#profile{
+    background-image: url("../../../assets/profilere.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+label{
+    color: white;
+}
